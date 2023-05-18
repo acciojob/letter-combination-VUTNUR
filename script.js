@@ -10,7 +10,7 @@ function letterCombinations(input_digit) {
 		"8":"tuv",
 		"9":"wxyz"
 	}
- let result[];
+ let result=[];
  function solve(index, asf) {
 	 if(index>=input_digit.length){
 		 result.push(asf);
