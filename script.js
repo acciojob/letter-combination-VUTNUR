@@ -17,10 +17,11 @@ function letterCombinations(input_digit) {
 		 return;
 	 }
  	let currstring=mapping[input_digit[index]]
-	 for(let i=0;i<currstring.lenght;i++){
+	 for(let i=0;i<currstring.length;i++){
 		 solve(index+1,asf+currstring[i])
 	 }
  }
+	solve(0,"")
 	return result;
 }
 
