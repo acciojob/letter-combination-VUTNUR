@@ -1,13 +1,13 @@
 function letterCombinations(input_digit) {
   //Complete the function
 	let mapping ={
-		"2":"abc" 
-	    "3": "def"
-		"4":"ghi"
-		"5":"jkl"
-		"6":"mno" 
-		"7":"pqrs" 
-		"8":"tuv" 
+		"2":"abc",
+	    "3":"def",
+		"4":"ghi",
+		"5":"jkl",
+		"6":"mno",
+		"7":"pqrs", 
+		"8":"tuv",
 		"9":"wxyz"
 	}
  let result[];
@@ -21,6 +21,7 @@ function letterCombinations(input_digit) {
 		 solve(index+1,asf+currstring[i])
 	 }
  }
+	return result;
 }
 
 module.exports = letterCombinations;
